@@ -1,0 +1,837 @@
+
+/*RESPONSIVE*/
+
+/* ========================    Tablet Landscape   ======================== */
+@media only screen and (min-width: 1199px) and (max-width: 1399px) {
+  .contact_ticket {
+    width: 100%; 
+  }
+ 
+}
+    
+/* ========================    Tablet Landscape   ======================== */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    /* Banner Section */
+    .header .headerBanner .headerLeft h1 { 
+      font-size: 49px;
+      line-height: 60px; 
+    }
+    .faq_innerImg { 
+      bottom: 0px; 
+      width: 244px;
+    }
+    .singleClient { 
+      padding: 30px 20px;  
+    }
+
+
+  /* Store Slots Page
+========================= */
+  .header.header-storeslots h1 br {
+    display: none;
+  }
+  .header.header-storeslots .headerBanner .headerLeft h1 {
+    font-size: 50px;
+  }
+  .header.header-storeslots .headerBanner .headerLeft .review .right {
+    margin-left: 0px;
+    margin-top: -15px;
+  }
+  .header.header-storeslots .headerBanner p br {
+    display: none !important;
+  }
+  .storeSettings .left {
+    width: 100%;
+  }
+/* Footer */
+footer .solutions .solutionContent {
+	padding: 54px 30px 54px 30px;
+	display: grid;
+	grid-template-columns: 1fr auto;
+}
+
+  /* About Page
+========================= */
+  .aboutPage .header .aboutHeaderBanner .bannerContent h1 { 
+    font-size: 50px; 
+  }
+  .ourOffice .row { 
+    align-items: center;
+  }
+  .aboutPage .subscribe .col-12 {
+    width: 80%;
+  }
+
+  /* Sign in  Page
+========================= */
+.signin-section .col-sm-12 {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .elements.elements2 img {
+    right: -6% !important;
+  }
+  /* Sign in  Page
+========================= */
+ 
+.elements {
+  display: none;
+}
+.signin_right {
+	padding-left: 0px;
+	margin-top: 50px;
+}
+  /* Contact Page
+========================= */
+.contact_ticket {
+	width: auto; 
+}
+  /* Blog Page
+========================= */
+
+.blog-cta-col2 {
+	padding-left: 20px;
+	margin-top: -25px;
+}
+.blog-product-card p { 
+	font-size: 18px;
+	line-height: 1.2;
+}
+.blog-product-card { 
+	padding: 30px 15px; 
+}
+.blog-cta-col1 img {
+	width: 100%;
+}
+.blog-cta-wrap { 
+	grid-template-columns: 350px auto; 
+}
+.blog-section .blog-singlepost .card-body p.card-text {
+	font-size: 20px;
+	line-height: 1.4; 
+}
+
+/* single blog */
+.blogPage .blog-01 .mainBlogArea .blogContent .topContent h1 br {
+	display: none !important;
+}
+.blogPage .blog-01 .mainBlogArea .blogContent .topContent .userDetails {
+	padding: 0px 0px;
+}
+  /* Plugins  Page
+========================= */
+.plugin-social-heading p { 
+	padding: 0px 185px;
+}
+.header_banner.plugins_banner .banner_content p {
+	padding: 0px 124px;
+}
+.blogPage .blog-01 .mainBlogArea .blogContent .bottomContent .para-01 {
+	margin-top: 3rem;
+}
+
+  /* Bundle Page
+========================= */
+main.bundlesPage .header .bundlesHeaderBg .bannerContent h1 { 
+	font-size: 50px; 
+}
+  /* Brand  Page
+========================= */
+.logosdownload_sec img { 
+	padding: 0px 30px;
+}
+}
+
+/* ========================  Tablet Portrait ======================== */
+@media (min-width: 767px) and (max-width: 992px) {
+  /*      Home Page
+  ========================= */
+  /* brands  */
+  .bestbrand-section .singleBrandLogo {
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .bestbrand-wrap {
+    gap: 30px;
+  }
+
+  /*  Footer */
+  footer > .container .row > div{
+    width: 50%;
+  }  
+  footer > .container .row > div:nth-child(2n) {
+    padding-left: 50px;
+  }
+    /*    Smart Coppon Page
+============================= */
+
+/* Faq */
+.mainFAQ {
+	padding: 0px 30px 30px;
+}
+/* Pricing */
+.pricingTable .pricingTableTabs .row .col-lg-4 {
+	width: 50%;
+}
+  /* Team  Page
+============================= */
+.team_item {
+	margin-bottom: 50px;
+}
+  /* Brand  Page
+========================= */
+.fullLogos h2 { 
+	font-size: 25px; 
+	margin-bottom: 20px;
+}
+.logosdownload_sec img { 
+	padding: 0px 15px;
+}
+.logosdownload_sec .logosTags { 
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+}
+
+
+/*  ========================   Phone & Tablet Common Style  ========================  */
+@media only screen and (max-width: 992px) {
+
+  /*      Home Page
+  ========================= */
+  h2, h3{
+    font-size: 36px;
+    line-height: 1.2;
+  }
+  .section-heading-two h2,
+  .section-heading-one h2 { 
+    font-size: 38px; 
+  }
+  .section-heading-two p br { 
+    display: none;
+  }  
+  .section-heading-two h2 br {
+    display: none;
+  }
+  .section-heading-two p {  
+    padding-bottom: 30px;
+  }
+  .section-heading-one { 
+    gap: 20px;
+  }
+ 
+  /* Header */
+  .header {
+    height: auto !important;
+  }
+  .header .navbar-collapse { 
+    position: relative;
+    z-index: 99;
+    margin-top: 7px;
+  }
+
+  .navbar-toggler:focus { 
+    box-shadow: none;
+  }
+  .navbar .navbar-nav .nav-item .nav-link { 
+    font-size: 17px; 
+    margin-top: 6px;
+  }
+
+  .navbar-toggler[aria-expanded="false"] .fa-times {
+    display: none;
+  }     
+  .navbar-toggler[aria-expanded="true"] .fa-times {
+    display: block;
+  }    
+  .navbar-toggler[aria-expanded="true"] .fa-bars {
+    display: none;
+  }     
+  .navbar-toggler-icon i {
+    color: #007CF5;
+    font-size: 33px;
+  }
+  /* Banner Section */
+  .header .headerBanner .headerLeft h1 { 
+    font-size: 40px;
+    line-height: 50px; 
+  }
+  #header.home-header {
+    height: auto;
+  }
+  .header .headerBanner .headerLeft {
+    margin-top: -40px;
+    text-align: center;
+    align-items: center;
+  }
+
+  /* Twinkle Apps  achieve*/
+  .clientSays .twinkleapps-achieve .singleApp {
+    margin-bottom: 20px;
+  }
+
+  /* Offer */
+  .offer-section .offersCard .middleCard {
+    margin-top: 0px;
+  }
+  .offer-section .offersCard {
+    margin-top: 26px;
+    margin-bottom: 80px;
+  }
+
+  /* Client Says */
+  .singleClient { 
+    margin-bottom: 30px;
+  }
+
+
+  /* Blog Section */
+  .blog-section {
+    padding-bottom: 280px;
+  }
+
+
+  /* footer */
+  footer {
+    height: auto;
+    padding-top: 20px;
+  }
+  footer .copyright {
+    margin-top: 67px;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+  }
+  footer .footerContent {
+    padding-top: 60px;
+  }
+ 
+  footer .footerContent .footerLogo img {
+    width: 230px;
+    height: auto;
+  }
+  footer .footerContent .headText {
+    margin-top: 0rem;
+  }
+  /* footer cta */
+  footer .solutions { 
+    margin-top: -70px;
+    padding-bottom: 40px;
+  }
+  footer.footer-cta { 
+    height: auto; 
+  }
+  footer .solutions .solutionContent {
+    margin-top: -170px; 
+  }
+
+  footer .solutions .solutionContent {
+    margin-top: -170px;
+    flex-direction: column;
+    padding: 0px 30px 50px;
+  }
+  footer .solutions .solutionContent .leftContent {
+    flex-direction: column;
+  }
+  footer .solutions .solutionContent .leftContent .text {
+    margin-top: -45px;
+    text-align: center;
+  }
+  footer .solutions .solutionContent .rightBtn {
+    margin-top: 22px;
+  }
+    /*    Smart Coppon Page
+  ============================= */ 
+
+  /* Banner */
+  .pluginBanner .pluginBannerRight { 
+    margin-top: 30px;
+  }
+
+  /* Plugins Details Section */
+  .pluginsDetails .row:nth-child(2),
+  .pluginsDetails .row:nth-child(4) { 
+    flex-direction: column-reverse;
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+  .pluginsDetails .plugRight {
+    margin-left: 0rem;
+  }
+  .pluginsDetails .row:nth-child(4) { 
+    padding-top: 0px;
+    padding-bottom: 60px;
+  }
+  .pluginsDetails .row:nth-child(3) {
+    padding-bottom: 60px;
+  }
+    /* Brands */
+    .bestbrand-section.pluginsBrands .pluginsbrands-wrap { 
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  /* Pricing */
+  .singleTable {
+    margin-bottom: 30px;
+  }
+  /* Guarantee */
+  .guranteecard_wrap {
+    flex-direction: column;
+  }
+    /*  Store Slots Page
+  ============================= */ 
+  /* Banner */
+  .header.header-storeslots .headerBanner .headerLeft .review { 
+    justify-content: center;
+  }
+  
+.header.header-storeslots .headerBanner .headerLeft h1 {
+  line-height: 1.2;
+  font-size: 50px;
+}
+.header.header-storeslots .headerBanner {
+  margin-top: 30px;
+  margin-bottom: -60px;
+}
+.header .headerBanner .headerRight img {
+  margin-top: 0px;
+}
+.header.header-storeslots .headerBanner .headerLeft .review .right {
+	margin-left: 20px; 
+}
+/*  Setting Details */
+.storeSettings .left h2 {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+.storeSettings .row:nth-child(2) {
+	padding-top: 20px;
+  padding-bottom: 110px;
+}
+.storeSettings .row:nth-child(4) {
+	padding-top: 80px;
+	padding-bottom: 110px;
+}
+.storeSettings .row:nth-child(6) {
+	padding-top: 80px;
+}
+.storeSettings .row:nth-child(2), 
+.storeSettings .row:nth-child(4),
+.storeSettings .row:nth-child(6) { 
+  flex-direction: column-reverse; 
+}
+.storeSettings .left {
+  width: 100%;
+}
+.storeSettings .right.right2::before { 
+	left: 0px; 
+}
+/* Pricing */
+.pricingTable.storePricing .pricingTableTabs .singleTable {
+	margin-bottom: 60px;
+}
+.storePricing { 
+	padding-bottom: 240px; 
+}
+/* Faq */
+.faq_innerImg {
+	display: none;
+}
+/* Screenshot */
+.screenshots .singleSS { 
+	margin-bottom: 30px;
+}
+  /* Footer */
+  footer.storeslots_footer { 
+    height: auto;
+  }
+    /*  About  Page
+  ============================= */ 
+  .aboutPage .aboutAppsTeam .tab-content .aboutTwinkleApps .row:nth-child(1),
+  .aboutPage .aboutAppsTeam .tab-content .aboutTwinkleApps .row:nth-child(3) {
+    flex-direction: column-reverse;
+  }
+  .aboutPage .aboutAppsTeam .tab-content .aboutTwinkleApps .row {
+    margin-bottom: 30px;
+  }
+  /* Sign in  Page
+========================= */
+ 
+.elements {
+  display: none;
+}
+.signin_right {
+	padding-left: 0px;
+	margin-top: 50px;
+}
+.signin_page::before,
+.signup_page::before{ 
+  z-index: auto; 
+}
+  /* Contact Page
+========================= */
+.contact_ticket {
+	width: 100%; 
+	margin-top: 30px;
+}
+
+.contactpg-left .nav-link {
+  width: 100%;
+}
+.contactpg-left .nav { 
+	width: 100%;
+	display: block;
+}
+.contactpg-left ul li {
+	margin-bottom: 15px;
+}
+.contactpg-left .nav-link { 
+	box-shadow: 5px 0px 30px 5px rgba(0, 124, 245, 0.09) !important; 
+}
+  /* Blog Page
+========================= */
+.blog-page-sec { 
+	padding-bottom: 0px; 
+}
+.blog-cta-wrap {
+	grid-template-columns: 1fr;
+	padding: 40px 30px 60px;
+	text-align: center;
+}
+.blog-cta-col1 img {
+	width: 300px;
+}
+.blog-cta-col2 {
+	padding-left: 0px; 
+  margin-top: 20px;
+}
+/* single blog */
+.blogPage .blog-01 .mainBlogArea .blogContent .topContent h1 br {
+	display: none !important;
+}
+.blogPage .blog-01 .mainBlogArea .blogContent .topContent .userDetails {
+	padding: 0px 0px;
+}
+.relatedPost .col-lg-4 {
+	width: 50%;
+	margin-bottom: 30px;
+}
+.blogPage .blog-01 .mainBlogArea .blogContent .bottomContent .replayForm { 
+	margin-top: 90px;
+}
+  /* Plugins  Page
+========================= */
+.header_banner.plugins_banner .blog_newsletter { 
+	width: 100%;
+}
+.header_banner.plugins_banner .banner_content { 
+	padding: 0rem 0rem 8rem; 
+}
+.plugin-social-heading p { 
+	padding: 0px 0px;
+}
+.header_banner.plugins_banner .banner_content p {
+	padding: 0px 0px;
+}
+.single-plugin { 
+	margin-bottom: 30px;
+}
+.plugin-social-heading { 
+	margin-top: 50px; 
+}
+.plugin-social-follow { 
+	grid-template-columns: 1fr 1fr; 
+  grid-gap: 20px;
+}
+/* Testimonial  Page
+========================= */
+.header_banner .banner_content.banner_testimonial p br {
+	display: none;
+}
+
+}
+
+/* ========================   Phone   ========================  */
+@media only screen and (max-width: 767px) {
+
+  /*      Home Page
+  ========================= */
+  /*   What We Offer  */
+  .offer-section .offersCard .singleOffer {
+    min-height: auto;
+  }
+  .offer-section .offersCard .middleCard {
+    margin-top: 0px;
+  }
+  .offer-section .offersCard {
+    margin-top: 20px;
+  }
+  /* Brands */
+  .bestbrand-wrap { 
+    gap: 20px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .bestbrand-section .singleBrandLogo { 
+    width: auto;
+    padding: 0px 10px;
+  }
+    /* Twinkle Apps  achieve*/
+  .clientSays .twinkleapps-achieve {
+    padding: 50px 30px;
+  }
+  .clientSays .twinkleapps-achieve .section-heading-two {
+    margin-bottom: 40px;
+  }
+  /*  Client Says */
+  .singleClient {
+    margin-bottom: 30px;
+  }
+  /*  Footer */
+  footer {
+    height: auto;
+    padding-top: 40px;
+  }
+  footer .footerContent .headText h6 {
+    margin-bottom: 20px; 
+  }
+  footer .footerContent {
+    padding-top: 40px;
+  }
+  /* Footer Cta */
+ 
+
+  /*    Smart Coppon Page
+============================= */
+ /*  Banner */
+ .pluginBanner .bannerContent .bannerTitle h1 { 
+	font-size: 40px; 
+}
+ /* Faq */
+.mainFAQ {
+	padding: 0px 30px 30px;
+}
+.faqAccordion .accordion-button::after { 
+	margin-left: 15px;
+}
+/* Pricing */
+.pricingTable .pricingTableTabs .nav .nav-item .nav-link {
+	padding: 15px 34px;
+}
+/* Plugins Details */
+.pluginsDetails .pluginsDetailsLeft h2 {
+	font-size: 34px;
+	line-height: 42px;
+}
+.pluginsDetails .plugLeft img { 
+	margin-left: 0rem;
+}
+.pluginsDetails .pluginsDetailsRight img { 
+	margin-left: 0rem;
+}
+/* Guarantee */
+.guranteecard_wrap {
+  padding: 30px 30px;
+}
+.guranteecard_wrap .guranteecard_right h2 {
+  font-size: 36px;
+}
+
+  /*  Store Slots Page
+============================= */ 
+
+
+  /*  About Page
+============================= */ 
+.header .bannerContent h1 {
+	font-size: 50px;
+	line-height: 1.2;
+}
+.aboutPage .subscribe .subscribeField {
+	height: auto; 
+	padding: 30px 20px 15px;
+}
+.aboutPage .subscribe .subscribeField .input-group .btn-outline-secondary { 
+	padding: 0.8rem 1rem; 
+}
+.aboutPage .aboutAppsTeam ul li {
+	margin-bottom: 20px;
+}
+
+  /* Sign in  Page
+========================= */
+ 
+.affiliate_signup form { 
+	grid-template-columns: 1fr; 
+}
+.signin-form {
+	padding: 60px 30px 70px 30px; 
+}
+.affiliate_signup .form-check {
+	display: grid;
+	grid-template-columns: 2px auto;
+	gap: 10px;
+}
+.signin-form h3 {
+	line-height: 1.2;
+}
+.signin-form .form-check .lost-password { 
+	width: 105%; 
+}
+.signin_right_img img {
+	width: 100%;
+	margin-left: 0px;
+}
+.signin_right_info ul li:nth-child(2n+1) {
+	width: 100%;
+}
+  /* Contact Page
+========================= */
+.contactpg-form form {
+	display: grid;
+	grid-template-columns: 1fr; 
+	grid-column-gap: 40px;
+}
+  /* Blog Page
+========================= */
+.blog_newsletter {
+	width: 100%;
+}
+.header_banner.blog_banner .banner_content { 
+	padding: 40px 30px; 
+} 
+.blog_newsletter button { 
+	width: 115px; 
+}
+.blog-page-sec .blog-title { 
+	flex-direction: column;
+  gap: 20px;
+}
+.blog_search {
+	width: 100%; 
+}
+/* single blog */ 
+.relatedPost .col-lg-4 {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+  /* Plugins  Page
+========================= */ 
+.plugin-social-follow { 
+	grid-gap: 20px;
+}
+.plugin-social-follow { 
+	grid-template-columns: 1fr; 
+}
+.blogPage .blog-01 .mainBlogArea .blogContent .topContent h1 {
+	font-size: 40px;
+}
+.blogPage .blog-01 .mainBlogArea .blogContent .topContent .userDetails {
+	padding: 0px 0px;
+	flex-direction: column;
+	align-items: baseline;
+  gap: 6px;
+}
+.blogPage .blog-01 .mainBlogArea .blogContent .topContent .userDetails .bar {
+	display: none;
+}
+.blogPage .blog-01 .mainBlogArea .blogContent .bottomContent .writerDetails {
+	padding: 40px 20px;
+	flex-direction: column;
+	align-items: center;
+}
+.writerDetails .writerInfo {
+	text-align: center;
+	margin-top: 10px;
+}
+.blogPage .blog-01 .mainBlogArea .blogContent .bottomContent .replayForm {
+	padding: 42px 30px 50px;
+}
+.blogPage .blog-01 .mainBlogArea .blogContent .bottomContent .replayForm .form-group .nameWidth {
+	width: 100%;
+}
+  /* Team Page
+========================= */ 
+.team_pg_heading h2 { 
+	margin-bottom: 40px;
+}
+.team-page .nav-link {
+  margin: 0px;
+  padding: 30px 20px;
+}
+.team-page .nav.nav-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.team_item {
+	text-align: center;
+}
+
+  /* Bundle  Page
+========================= */ 
+main.bundlesPage .header .bundlesHeaderBg .bannerContent h1 {
+	font-size: 40px; 
+}
+  /* Brand  Page
+========================= */ 
+.downloadlogo_warp {
+	margin-bottom: 70px;
+}
+.logosdownload_sec img { 
+	padding: 0px 30px;
+}
+.downloadlogo_img {
+	height: 200px;
+}
+.logosdownload_sec .col-lg-6 {
+	width: 100%;
+}
+.brandPage .usingLogo .usingLogoRight {
+	margin-left: 0px;
+	margin-top: 30px;
+}
+.logosdownload_sec .logosTags {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+}
+
+
+
+/*  ========================   Mobile Vertical Layout: 488px   ========================  */
+@media only screen and (min-width: 488px) and (max-width: 767px) {
+  .screenshotSlider .carousel-item .col-md-3 {
+    width: 50%;
+  }
+  .screenshots .singleSS { 
+    padding: 10px; 
+  }
+    /* Brand  Page
+========================= */ 
+.downloadlogo_warp {
+	margin-bottom: 70px;
+}
+.logosdownload_sec img { 
+	padding: 0px 80px;
+}
+.downloadlogo_img {
+	height: 200px;
+}
+.logosdownload_sec .col-lg-6 {
+	width: 100%;
+}
+.brandPage .usingLogo .usingLogoRight {
+	margin-left: 0px;
+	margin-top: 30px;
+}
+.logosdownload_sec .logosTags {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 0px;
+}
+}
+
+
+ 
